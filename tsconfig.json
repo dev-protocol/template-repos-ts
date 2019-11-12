@@ -4,8 +4,6 @@
 		"lib": ["es2019"],
 		"moduleResolution": "node",
 		"module": "commonjs",
-		"strict": true,
-		"typeRoots": ["./node_modules/@types", "./types"],
-		"types": ["node", "truffle-contracts"]
+		"strict": true
 	}
 }

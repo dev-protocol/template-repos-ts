@@ -13,23 +13,5 @@
 	],
 	"rules": {
 		"prettier/prettier": "error"
-	},
-	"overrides": [
-		{
-			"files": ["test/**/*.ts"],
-			"globals": {
-				"describe": "readonly",
-				"expect": "readonly",
-				"it": "readonly",
-				"artifacts": "readonly",
-				"contract": "readonly"
-			}
-		},
-		{
-			"files": ["migrations/**/*"],
-			"globals": {
-				"artifacts": "readonly"
-			}
-		}
-	]
+	}
 }
