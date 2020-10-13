@@ -23,7 +23,7 @@
 		"@ava/typescript": "1.1.1",
 		"@types/dotenv": "8.2.0",
 		"@types/node": "14.11.8",
-		"@types/ramda": "0.27.24",
+		"@types/ramda": "0.27.25",
 		"@typescript-eslint/eslint-plugin": "4.4.1",
 		"@typescript-eslint/parser": "4.4.1",
 		"ava": "3.13.0",
