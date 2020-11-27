@@ -11,13 +11,13 @@
 		"prebuild": "rimraf dist",
 		"lint": "yarn lint:eslint && yarn lint:format",
 		"lint:eslint": "eslint . --ext .ts,.js --fix",
-		"lint:format": "prettier --write '**/*.{js,json,md,yml}'"
+		"lint:format": "prettier --write '**/*.{ts,js,json,md,yml}'"
 	},
 	"author": "",
 	"license": "MPL-2.0",
 	"dependencies": {
-		"ramda": "^0.27.1",
-		"ethereum-waffle": "3.2.1"
+		"ethereum-waffle": "3.2.1",
+		"ramda": "^0.27.1"
 	},
 	"devDependencies": {
 		"@ava/typescript": "1.1.1",
@@ -31,7 +31,6 @@
 		"eslint": "7.14.0",
 		"eslint-config-prettier": "6.15.0",
 		"eslint-plugin-functional": "3.1.0",
-		"eslint-plugin-prettier": "3.1.4",
 		"husky": "4.3.0",
 		"prettier": "2.2.0",
 		"rimraf": "3.0.2",
