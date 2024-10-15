@@ -5,7 +5,7 @@ Template repository for using TypeScript
 # Stack
 
 - npm client is [yarn](https://github.com/yarnpkg/yarn)
-- Testing is [ava](https://github.com/avajs/ava)
+- Testing is [vitest](https://github.com/vitest-dev/vitest)
 - Linting is [eslint](https://github.com/eslint/eslint)
 - Basic lint rule set is [eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional)
 - Formatter is [prettier](https://github.com/prettier/prettier)

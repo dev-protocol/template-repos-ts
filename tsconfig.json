@@ -1,12 +1,14 @@
 {
 	"compilerOptions": {
-		"module": "commonjs",
-		"target": "es6",
+		"module": "nodenext",
+		"lib": ["esnext"],
+		"target": "esnext",
 		"outDir": "dist",
 		"rootDir": ".",
 		"sourceMap": true,
 		"strict": true,
 		"esModuleInterop": true,
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"moduleResolution": "nodenext"
 	}
 }

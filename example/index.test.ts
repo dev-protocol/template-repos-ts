@@ -1,6 +1,6 @@
-import test from 'ava'
-import example from './index'
+import { expect, test } from 'vitest'
+import example from './index.js'
 
-test('exports undefined', (t) => {
-	t.is(example, undefined)
+test('it is undefined', () => {
+	expect(example).toBe(undefined)
 })
