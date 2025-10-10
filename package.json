@@ -17,7 +17,7 @@
 	"author": "Dev Protocol",
 	"license": "MPL-2.0",
 	"dependencies": {
-		"ramda": "0.31.3"
+		"ramda": "0.32.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.12.0",
