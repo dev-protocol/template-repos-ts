@@ -20,14 +20,14 @@
 		"ramda": "0.32.0"
 	},
 	"devDependencies": {
-		"@eslint/js": "^9.12.0",
+		"@eslint/js": "^10.0.0",
 		"@types/dotenv": "8.2.3",
 		"@types/eslint-config-prettier": "^6.11.3",
 		"@types/eslint__js": "^9.0.0",
 		"@types/node": "24.10.13",
 		"@types/ramda": "0.31.1",
 		"dotenv": "17.3.1",
-		"eslint": "^9.12.0",
+		"eslint": "^10.0.0",
 		"eslint-config-prettier": "^10.0.0",
 		"eslint-plugin-functional": "^9.0.0",
 		"globals": "^17.0.0",
